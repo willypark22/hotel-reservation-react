@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Room = () => {
+const Room = ({ room }) => {
+    const {name, slug, images, price} = room;
     return (
-        <div>
-            Hello from Room.
-        </div>
+        <article className="room">
+            <div className="img-container">
+                <img src={images[0]} alt="Single Room" />
+            </div>
+        </article>
     )
 }
 
