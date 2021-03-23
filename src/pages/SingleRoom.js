@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link, useHistory, useLocation, useRouteMatch } from 'react-router-dom';
 import { RoomContext } from '../context';
+import StyledHero from '../components/StyledHero';
 
 const SingleRoom = () => {
     const history = useHistory();
@@ -31,16 +32,27 @@ const SingleRoom = () => {
     }
     
     const {name, description, capacity, size, price, extras, breakfast, pets, images} = room;
-
+    const [mainImg, ...defaultImg] = images;
 
     return (
-        <Hero hero='roomsHero'>
-            <Banner title={`${name} room`}>
-                <Link to="/rooms" className="btn-primary">
-                    back to rooms
-                </Link>
-            </Banner>
-        </Hero>
+        <>
+            <StyledHero image={mainImg}>
+                <Banner title={`${name} room`}>
+                    <Link to="/rooms" className="btn-primary">
+                        back to rooms
+                    </Link>
+                </Banner>
+            </StyledHero>
+            <section className="single-room">
+                <div className="single-room-images">
+                    {
+                        defaultImg.map((item, index) => (
+                            <img key={index} src={item} alt={name} />
+                        ))
+                    }
+                </div>
+            </section>
+        </>
     )
 }
 
