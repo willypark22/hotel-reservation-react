@@ -4,13 +4,13 @@ import { BrowserRouter as Router } from 'react-router-dom';
 // import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RoomProvider } from './context';
+import { RoomProvider, RoomContext } from './context';
 
 ReactDOM.render(
   <RoomProvider>
     <Router>
       <App />
-    </Router>
+    </Router>,
   </RoomProvider>,
   document.getElementById('root')
 );
