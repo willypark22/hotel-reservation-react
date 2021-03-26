@@ -53,8 +53,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -66,7 +64,7 @@
 
 [![Product Name Screen Shot][product-screenshot]]()
 
-A Beach Resort web application that lets users browse through different types of rooms available. Users can check the price, room size, capacity, breakfast, and see if they can bring their pets.
+A Beach Resort web application that lets users browse through different types of rooms available. Users can check the price, room size, capacity, breakfast, and see if they can bring their pets. The project was inspired by [freeCodeCamp.org](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ). I put my own twist with it by developing the majority of the project with React Hooks and arrow functions.
 
 I am currently having trouble uploading the project onto Netlify. Once I solve the problem, I will upload the live website link onto this repo.
 
@@ -114,40 +112,32 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Browse Rooms
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Look through the various different types of rooms available within the site. Users can see the price and the type of room that are in the fictitious beach resort.
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+[![Product Name Screen Shot][product-screenshot]]()
 
 
+### Learn More About Each Room
 
-<!-- CONTACT -->
-## Contact
+Users can view images and descriptions of each room after clicking on a room. To save time, all the images are similar and the descriptions are created with Lorem Ipsum. The Info panel shows the room's price, size, capacity, and type of room. It will also say whether the room allows pets and if free breakfast is given.
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+[![Product Name Screen Shot][product-screenshot]]()
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+### Filter the Rooms You Want
+
+Users can use the filter to display the rooms they are looking for. You can filter through room type, guest capacity, room price, room size, breakfast, and pets.
+
+[![Product Name Screen Shot][product-screenshot]]()
+
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
 
 
@@ -167,3 +157,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/willypark22/
 [product-screenshot]: images/project-screenshot.png
+[browse-screenshot]: images/browse-project.png
+[detail-screenshot]: images/detail-project.png
+[filter-screenshot]: images/filter-project.png
