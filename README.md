@@ -116,21 +116,21 @@ This is an example of how to list things you need to use the software and how to
 
 Look through the various different types of rooms available within the site. Users can see the price and the type of room that are in the fictitious beach resort.
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][browse-screenshot]]()
 
 
 ### Learn More About Each Room
 
 Users can view images and descriptions of each room after clicking on a room. To save time, all the images are similar and the descriptions are created with Lorem Ipsum. The Info panel shows the room's price, size, capacity, and type of room. It will also say whether the room allows pets and if free breakfast is given.
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][detail-screenshot]]()
 
 
 ### Filter the Rooms You Want
 
 Users can use the filter to display the rooms they are looking for. You can filter through room type, guest capacity, room price, room size, breakfast, and pets.
 
-[![Product Name Screen Shot][product-screenshot]]()
+[![Product Name Screen Shot][filter-screenshot]]()
 
 
 
